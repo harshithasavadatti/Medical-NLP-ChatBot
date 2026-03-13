@@ -57,15 +57,15 @@ medical-nlp-chatbot │
 ├── config.py │ 
 ├── data │
 ├── raw_json 
-│ └── processed_chunks │
+│ └── processed_chunks 
 ├──scripts │ 
 ├── ingest_data.py
 │ └── create_index.py 
-│ ├── vector_store │
+│ ├── vector_store 
 ├── index.faiss
-│ └── metadata.pkl │
+│ └── metadata.pkl 
 ├── medical_records.db
-├──streamlit_app.py
+├── dashboard.py
 ├── requirements.txt
 └── README.md
 
@@ -134,6 +134,8 @@ streamlit run streamlit_app.py
 Open:
 
 http://localhost:8501
+
+Find the website : https://medical-nlp-chatbot-nuxempnwymb7qjcqc4ny4n.streamlit.app/
 
 ------------------------------------------------------------------------
 
