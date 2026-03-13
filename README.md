@@ -47,12 +47,27 @@ Database - SQLite
 
 ## Project Structure
 
-medical-nlp-chatbot │ ├── app │ ├── api │ ├── services │ ├── retrieval │
-├── processing │ ├── prompts │ ├── utils │ ├── config.py │ ├── logger.py
-│ └── main.py │ ├── data │ ├── raw_json │ └── processed_chunks │ ├──
-scripts │ ├── ingest_data.py │ └── create_index.py │ ├── vector_store │
-├── index.faiss │ └── metadata.pkl │ ├── medical_records.db ├──
-streamlit_app.py ├── requirements.txt └── README.md
+medical-nlp-chatbot │
+├── app │ ├── api │ 
+├── services │
+├── retrieval │
+├── processing │
+├── prompts │ 
+├── utils │ 
+├── config.py │ 
+├── data │
+├── raw_json 
+│ └── processed_chunks │
+├──scripts │ 
+├── ingest_data.py
+│ └── create_index.py 
+│ ├── vector_store │
+├── index.faiss
+│ └── metadata.pkl │
+├── medical_records.db
+├──streamlit_app.py
+├── requirements.txt
+└── README.md
 
 ------------------------------------------------------------------------
 
@@ -60,8 +75,7 @@ streamlit_app.py ├── requirements.txt └── README.md
 
 Clone the repository
 
-git clone https://github.com/yourusername/medical-nlp-chatbot.git cd
-medical-nlp-chatbot
+git clone cd Medical NLP ChatBot
 
 Create virtual environment
 
