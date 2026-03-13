@@ -135,7 +135,6 @@ Open:
 
 http://localhost:8501
 
-Find the website : https://medical-nlp-chatbot-nuxempnwymb7qjcqc4ny4n.streamlit.app/
 
 ------------------------------------------------------------------------
 
